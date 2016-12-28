@@ -1,19 +1,14 @@
 package com.app;
+
 import java.util.UUID;
 
-/**
- * Generate a unique number
- *
- */
 public class App {
 
   public static void main( String[] args ) {
-    App obj = new App();
-    System.out.println("Unique ID : " + obj.generateUniqueKey());
+    System.out.println("Hello from main");
   }
 
-  public String generateUniqueKey(){
-    String id = UUID.randomUUID().toString();
-    return id;
+  public static double sqrt( double c ){
+    return 2;
   }
 }
