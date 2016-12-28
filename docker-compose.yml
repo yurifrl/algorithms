@@ -3,5 +3,6 @@ services:
   web:
     build: .
     command: mvn test
+    working_dir: /usr/src/app
     volumes:
      - .:/usr/src/app
