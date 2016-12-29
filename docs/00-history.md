@@ -68,3 +68,6 @@ mvn install:install-file \
  -Dversion=1.0 \
  -Dpackaging=jar \
  -DgeneratePom=true
+
+ http://rick-hightower.blogspot.com.br/2015/05/using-docker-gradle-to-create-java.html
+
