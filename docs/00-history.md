@@ -1,7 +1,12 @@
-# Ref
+# Timeline
+- migrated from mvn to gradle
 
 # Remember
 - C-a + s
+- Repl:
+    - docker run --rm -it passy/java-repl
+    - docker run --rm -it parana/java-jdk9 jshell
+- .
 
 # Tolls
 - Algorithms web tools:
@@ -13,10 +18,6 @@
     - http://joao-parana.com.br/blog/java-9-no-docker-java-playground-com-repl/
     - https://github.com/passy/java-repl
     - https://github.com/albertlatacz/java-repl
-
-# Useful comands
-docker run --rm -it passy/java-repl
-docker run --rm -it parana/java-jdk9 jshell
 
 # Code snipets (i don't remenber java)
 ```
