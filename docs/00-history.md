@@ -70,4 +70,5 @@ mvn install:install-file \
  -DgeneratePom=true
 
  http://rick-hightower.blogspot.com.br/2015/05/using-docker-gradle-to-create-java.html
+ https://gist.github.com/alexlafroscia/c6757de349b27e34eff6
 
