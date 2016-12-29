@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.app'
+version = '1.0-SNAPSHOT'
+
+description = """app"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+repositories {
+  maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version:'4.12'
+  system group: 'edu.princeton.cs.introcs', name: 'stdlib-package', version:'1.0'
+  system group: 'edu.princeton.cs', name: 'algs4', version:'1.0.2'
+}
