@@ -2,7 +2,7 @@ version: '2'
 services:
   web:
     build: .
-    command: mvn test
+    command: gradle test
     working_dir: /usr/src/app
     volumes:
      - .:/usr/src/app
