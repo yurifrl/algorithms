@@ -15,6 +15,7 @@ public class HyTest extends TestCase {
      */
     public void testX() {
         System.out.println(Hy.hy());
+        assertEquals("HELLASDASDLO", Hy.hy());
     }
     
 }
