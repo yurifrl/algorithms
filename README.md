@@ -1,2 +1,2 @@
-# Algorithms study
+# Algs4
 
