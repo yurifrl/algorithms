@@ -24,7 +24,6 @@ ADD http://algs4.cs.princeton.edu/linux/drjava /usr/local/bin
 ADD http://algs4.cs.princeton.edu/linux/.drjava $HOME
 RUN sed -i -- 's/#last.dir = INSTALL_DIR/last.dir = INSTALL_DIR/g' $HOME/.drjava
 RUN sed -i -- 's/#last.interactions.dir = INSTALL_DIR/last.interactions.dir = INSTALL_DIR/g' $HOME/.drjava
-# COPY config/drjava $HOME/.drjava
 
 RUN chmod 775 /usr/local/bin/*
 
