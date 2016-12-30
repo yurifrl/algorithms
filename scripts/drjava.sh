@@ -5,6 +5,7 @@ exec() {
   docker run --rm -it \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $(pwd):/usr/src/app \
+    -v $(pwd)/config/drjava:/root/.drjava \
     -e DISPLAY=unix$DISPLAY \
     yurifl/algs4 $@
 }
@@ -13,6 +14,7 @@ run() {
   docker run --rm -it \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $(pwd):/usr/src/app \
+    -v $(pwd)/config/drjava:/root/.drjava \
     -e DISPLAY=unix$DISPLAY \
     yurifl/algs4 drjava
 }
@@ -22,6 +24,7 @@ daemon() {
   docker run -d \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $(pwd):/usr/src/app \
+    -v $(pwd)/config/drjava:/root/.drjava \
     -e DISPLAY=unix$DISPLAY \
     --name drjava \
     yurifl/algs4 drjava
