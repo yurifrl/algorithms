@@ -6,7 +6,11 @@
 - Repl:
     - docker run --rm -it passy/java-repl
     - docker run --rm -it parana/java-jdk9 jshell
-- .
+- get data `wget http://algs4.cs.princeton.edu/code/algs4-data.zip`
+- Add jar to docker:
+    - http://stackoverflow.com/questions/39100884/unable-to-provide-classpath-in-docker
+    - http://stackoverflow.com/questions/37466511/how-to-build-dockerfile-with-two-jar-files
+    - https://hub.docker.com/r/iris/playground/~/dockerfile/
 
 # Tolls
 - Algorithms web tools:
