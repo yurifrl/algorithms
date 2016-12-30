@@ -9,4 +9,7 @@ public class AlgorithmsTest extends TestCase {
   public void testSqrt() {
     assertEquals( Algorithms.sqrt(4), 2.0 );
   }
+  public void testAverage() {
+    assertEquals( Algorithms.testAverage(), 0.0 );
+  }
 }
