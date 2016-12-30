@@ -43,7 +43,7 @@ dependencies {
   testRuntime("org.apache.logging.log4j:log4j-jul:${log4jVersion}")
 
   compile files('./src/main/resources/algs4.jar')
-  compile files('./src/main/resources/stdlib.jar')
+  // compile files('./src/main/resources/stdlib.jar')
   // compile 'edu.princeton.cs:algs4:1.0.2'
 }
 
