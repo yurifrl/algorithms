@@ -3,6 +3,7 @@
 
 # Remember
 - C-a + s
+- Nerdtres: Shift + R
 - Repl:
     - docker run --rm -it passy/java-repl
     - docker run --rm -it parana/java-jdk9 jshell
@@ -11,6 +12,10 @@
     - http://stackoverflow.com/questions/39100884/unable-to-provide-classpath-in-docker
     - http://stackoverflow.com/questions/37466511/how-to-build-dockerfile-with-two-jar-files
     - https://hub.docker.com/r/iris/playground/~/dockerfile/
+- docker-compose -f docker-compose.package.yml run --rm web java-algs4 edu.princeton.cs.algs4.RandomSeq 1000 100.0 200.0
+- docker-compose -f docker-compose.package.yml run --rm web bash
+- cd /usr/local/algs4/algs4-data
+- java-algs4 edu.princeton.cs.algs4.BinarySearch largeW.txt < largeT.txt
 
 # Tolls
 - Algorithms web tools:

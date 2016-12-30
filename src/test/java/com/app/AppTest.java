@@ -6,6 +6,6 @@ import junit.framework.TestSuite;
 
 public class AppTest extends TestCase {
   public void testMainCall() {
-    App.main(new String[] {  });
+    App.main(new String[] { });
   }
 }
