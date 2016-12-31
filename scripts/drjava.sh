@@ -2,10 +2,10 @@
 
 docker stop drjava
 docker rm drjava
+
 docker run -d \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -v $(pwd)/drjava/src:/usr/src/app \
-  -v $(pwd)/drjava/drjava:/root/.drjava \
+  -v $(pwd)/playground:/usr/src/app \
   -e DISPLAY=unix$DISPLAY \
   --name drjava \
-  yurifl/algs4 drjava
+  yurifl/algs4-tools drjava
