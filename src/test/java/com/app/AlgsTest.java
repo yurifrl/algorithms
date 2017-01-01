@@ -1,5 +1,6 @@
-package com.app;
+package test.java.com.app;
 
+import main.java.com.app.Algs;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
