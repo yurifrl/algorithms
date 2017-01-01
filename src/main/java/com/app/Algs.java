@@ -1,4 +1,4 @@
-package com.app;
+package main.java.com.app;
 
 import edu.princeton.cs.algs4.Average;
 import java.util.Arrays;
