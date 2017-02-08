@@ -2,7 +2,7 @@ version: '2'
 services:
   web:
     image: frekele/gradle
-    command: gradle test
+    command: gradle -t test
     working_dir: /usr/src/app
     volumes:
      - .:/usr/src/app
